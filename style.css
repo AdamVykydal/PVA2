@@ -1,5 +1,55 @@
-header{
-    background-color: black;
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
+
+
+header {
+    
+    text-align: right;
+
+}
+
+.search{
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 10%;
+}
+
+.bar{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.google{
+    font-size: 150px;
+    margin-bottom: 20px;
+
+}
+
+.anothers{
+    margin-top: 1%;
+}
+
+.another{
+    padding-right: 30px;
+    font-size: 20px;
+    font-style: none;
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+  }
